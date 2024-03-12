@@ -42,6 +42,8 @@ export default class App {
 
   console.log(student2);
 
+ let courses = await student2.listCourses();
+    console.log(courses);
 
 
   }

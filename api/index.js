@@ -44,7 +44,8 @@ api.use("/students/:id", (req, res, next) => {
   }
   next();
 });
-// GET: /api/students/???
+// GET: /api/students/mchang
+//nkishnani
 api.get("/students/:id", (req, res) => {
   let student = STUDENTS[req.params.id];
   res.json(student);

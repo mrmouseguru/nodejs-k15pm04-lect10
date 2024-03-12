@@ -38,6 +38,10 @@ export default class App {
 
    console.log("Student2", student2);
 
+  await student2.declare("CS");
+
+  console.log(student2);
+
 
 
   }
